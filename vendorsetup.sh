@@ -43,3 +43,14 @@ export LC_ALL="C"
 
 # Clone to fix build on minimal manifest
 git clone https://android.googlesource.com/platform/external/gflags/ -b android-12.1.0_r4 external/gflags
+export SHRP_LITE := true
+export SHRP_EXLUDE_TZDATA := true
+export SHRP_EXCLUDE_LPDUMP := true
+export SHRP_EXCLUDE_FB2PNG := true
+export SHRP_EXCLUDE_SUPERSU := true
+export SHRP_EXCLUDE_NTFS_3G := true
+export SHRP_EXTRA_LANGUAGES := false
+export SHRP_EXCLUDE_APEX := true
+export SHRP_EXCLUDE_NANO := true
+export SHRP_EXCLUDE_APEX := true
+export SHRP_EXCLUDE_PYTHON := true
